@@ -1,4 +1,4 @@
-# Vue handbook 
+# Vue handbook :green_apple:
 ## by Saahiththiyan Mathivathanan
 
 All html should be written inside a `template` tag.
