@@ -38,7 +38,7 @@ export default {
 
 This component takes a prop called msg which is a string. This component can be added in the app.js file as below
 
-```javascript
+```html
 // App.js
 <template>
   <div id="app">
@@ -49,7 +49,7 @@ This component takes a prop called msg which is a string. This component can be 
 
 Then the msg will be used inside the component like below
 
-```javascript
+```html
 // HelloWorld.vue
 <template>
   <h1>{msg}</h1>
