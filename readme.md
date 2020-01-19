@@ -55,3 +55,31 @@ Then the msg will be used inside the component like below
   <h1>{msg}</h1>
 </template>
 ```
+
+### Data
+
+Data can be set using two ways
+
+```javascript
+// 1st way
+export default {
+  name: 'HelloWorld',
+  data: {
+    name: 'saahi'
+  }
+}
+
+// 2nd way
+export default {
+  name: 'HelloWorld',
+  data() {
+    return {
+      name: 'saahi'
+    }
+  }
+}
+```
+
+Where the first way the data is an object used to set common data that can be accessed by all components. But in the second way the data is a function that sets the name unique to each component. i.e the name variable will same even if the instance of the name is changed in another component.
+
+
